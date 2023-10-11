@@ -1,5 +1,7 @@
 # Alexnet-tensorflow-pytorch
 
+Alexnet model can be created in Tensorflow, Pytorch packages.
+
 ```
 usage: main.py [-h] [--model {tf,torch}]
 
