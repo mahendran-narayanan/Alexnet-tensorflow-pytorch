@@ -10,13 +10,13 @@ optional arguments:
   --model {tf,torch}  Model created on Tensorflow, Pytorch (default: Tensorflow)
 ```
 
-To run in Tensorflow:
+To create model in Tensorflow:
 
 ```
 python3 main.py --model tf
 ```
 
-To run in Pytorch:
+To create model in Pytorch:
 
 ```
 python3 main.py --model torch
