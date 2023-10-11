@@ -60,7 +60,6 @@ def model_tf():
 	return TfNN()
 
 def main(args):
-	# print(args.model)
 	if args.model=='tf':
 		print('Model will be created in Tensorflow')
 		model = model_tf()
@@ -76,8 +75,6 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Create alexnet model in Tensorflow or Pytorch package')
 	parser.add_argument('--model',
 	                    default='tf',
-	                    # const='all',
-	                    # nargs='?',
 	                    choices=['tf', 'torch'],
 	                    help='Model created on Tensorflow, Pytorch (default: %(default)s)')
 	args = parser.parse_args()
