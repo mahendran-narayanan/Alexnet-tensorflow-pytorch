@@ -2,11 +2,6 @@ import argparse
 import tensorflow as tf
 import torch
 
-# def model_tf():
-# 	create = []
-# 	create.append(tf.keras.layers.Conv2D(96,11,strides=4,input_shape=(256,256,3),activation='relu'))
-# 	create.append(tf.keras.layers.Conv2D(256,5,activation='relu'))
-# 	return tf.keras.Sequential(*create)
 
 class TfNN(tf.keras.Model):
 	def __init__(self):
